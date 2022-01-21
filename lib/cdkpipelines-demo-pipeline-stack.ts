@@ -49,7 +49,7 @@ export class CdkpipelinesDemoPipelineStack extends Stack {
         envFromCfnOutputs: {
           // Get the stack Output from the Stage and make it available in
           // the shell script as $ENDPOINT_URL.
-          ENDPOINT_URL: preprod.urlOutput,
+          ENDPOINT_URL: preprodvalidation.urlOutput,
         },
       }),
 
