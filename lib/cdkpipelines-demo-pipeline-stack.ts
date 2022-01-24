@@ -26,7 +26,9 @@ export class CdkpipelinesDemoPipelineStack extends Stack {
 														           'npm ci',
 															              'npm run build',
 																                 'npx cdk synth',
-														'ls -l cdk.out'
+														'ls -l cdk.out',
+														'ls -l cdk.out/assembly-*',
+														'ls -l cdk.out/asset.*'
 																		          ],
 																			         }),
 																				     });
